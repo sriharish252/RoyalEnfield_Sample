@@ -72,6 +72,15 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal repo</name>
+			<url>file:///Users/sriha</url>
+		</repository>
+	</distributionManagement>
+	
+
 	<build>
 		<plugins>
 			<plugin>
